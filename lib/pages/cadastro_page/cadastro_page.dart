@@ -25,6 +25,26 @@ class _CadastrOpageState extends State<CadastrOpage> {
               child: InputForm(
                 text: "Sobrenome",
               )),
+          Padding(
+              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+              child: InputForm(
+                text: "Idade",
+              )),
+          Padding(
+              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+              child: InputForm(
+                text: "Peso",
+              )),
+          Padding(
+              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+              child: InputForm(
+                text: "Altura",
+              )),
+          Padding(
+              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+              child: InputForm(
+                text: "Gênero",
+              )),
         ],
       );
     });
