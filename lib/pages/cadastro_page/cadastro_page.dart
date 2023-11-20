@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/communs/input_form/input_form.dart';
 
+import '../../db/model.dart';
+
 const List<String> list = <String>[
   'Gênero',
   'Masculino',
@@ -16,6 +18,10 @@ class CadastrOpage extends StatefulWidget {
 }
 
 class _CadastrOpageState extends State<CadastrOpage> {
+  List<Pessoa> pessoa = [];
+
+  
+
   String generoValor = list.first;
   @override
   Widget build(BuildContext context) {
