@@ -54,7 +54,7 @@ class _CadastrOpageState extends State<CadastrOpage> {
                 type: TextInputType.number,
               )),
           Padding(
-            padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 40),
             child: DropdownButtonFormField(
               decoration: const InputDecoration(
                 enabledBorder: OutlineInputBorder(
@@ -100,6 +100,22 @@ class _CadastrOpageState extends State<CadastrOpage> {
               }).toList(),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+            child: OutlinedButton(
+              onPressed: () {},
+              child: const Text('Confirmar'),
+              style: OutlinedButton.styleFrom(
+                  primary: const Color.fromARGB(193, 0, 0, 1),
+                  side: const BorderSide(
+                    color: Color.fromARGB(193, 0, 0, 1),
+                    width: 2,
+                  ),
+                  textStyle: const TextStyle(fontSize: 16),
+                  fixedSize: const Size(220, 50),
+                  shape: const StadiumBorder()),
+            ),
+          )
         ],
       );
     });
