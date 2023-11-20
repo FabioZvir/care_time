@@ -55,7 +55,37 @@ class _CadastrOpageState extends State<CadastrOpage> {
               )),
           Padding(
             padding: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
-            child: DropdownButton<String>(
+            child: DropdownButtonFormField(
+              decoration: const InputDecoration(
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(10),
+                  ),
+                  borderSide: BorderSide(
+                    color: Color.fromARGB(116, 0, 0, 1),
+                    width: 2,
+                  ),
+                ),
+                disabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(12),
+                  ),
+                  borderSide: BorderSide(
+                    color: Color.fromARGB(116, 0, 0, 1),
+                    width: 2,
+                  ),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(12),
+                  ),
+                  borderSide: BorderSide(
+                    color: Color.fromARGB(193, 0, 0, 1),
+                    width: 2,
+                  ),
+                ),
+              ),
+              isExpanded: true,
               value: generoValor,
               onChanged: (String? value) {
                 setState(() {
@@ -69,7 +99,7 @@ class _CadastrOpageState extends State<CadastrOpage> {
                 );
               }).toList(),
             ),
-          )
+          ),
         ],
       );
     });
