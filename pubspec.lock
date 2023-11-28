@@ -190,13 +190,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.0"
-  ffi:
-    dependency: transitive
-    description:
-      name: ffi
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.2.1"
   file:
     dependency: transitive
     description:
@@ -408,13 +401,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
-  source_gen:
-    dependency: transitive
-    description:
-      name: source_gen
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.2.2"
   source_map_stack_trace:
     dependency: transitive
     description:
@@ -436,20 +422,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.1"
-  sqfentity:
-    dependency: "direct main"
-    description:
-      name: sqfentity
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.2.0+6"
-  sqfentity_gen:
-    dependency: "direct main"
-    description:
-      name: sqfentity_gen
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.2.0+12"
   sqflite:
     dependency: "direct main"
     description:
@@ -464,27 +436,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.4.0"
-  sqflite_common_ffi:
-    dependency: transitive
-    description:
-      name: sqflite_common_ffi
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.1.1+1"
-  sqflite_sqlcipher:
-    dependency: transitive
-    description:
-      name: sqflite_sqlcipher
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.2.1"
-  sqlite3:
-    dependency: transitive
-    description:
-      name: sqlite3
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.7.0"
   stack_trace:
     dependency: transitive
     description:
@@ -606,4 +557,4 @@ packages:
     version: "3.1.1"
 sdks:
   dart: ">=2.16.2 <3.0.0"
-  flutter: ">=1.24.0-10"
+  flutter: ">=1.10.0"
